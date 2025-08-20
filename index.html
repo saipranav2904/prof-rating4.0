@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professor Rating</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Professor Rating System</h1>
+
+  <div class="card">
+    <label>Professor: 
+      <select id="professor">
+        <option>Prof. PARDHA SARADHI GURUGUBELLI VENKATA</option>
+        <option>Prof. Dinda </option>
+        <option>Prof. Mithun Mondal </option>
+        <option>Prof. AKG</option>
+        <option>Prof. Kannan</option>
+        <option>Prof. CPK</option>
+        <option>Prof. JAYAPRAKASH K S </option>
+        <option>Prof. Gireesha Thipperudrappa Mohannath </option>
+        <option>Prof. Supratim Ghosh</option>
+        <option>Prof. Bibhas Roy</option>
+        <option>Prof. Piyush Khandelia</option>
+        <option>Prof. SRIDEV MOHAPATRA </option>
+        <option>Prof. Ankita Paul </option>
+        <option>Prof. Brahmandam N S A L Gayatri</option>
+        <option>Prof. Devarakonda Yogeshwar</option>
+        <option>Prof. Manali Chindarkar</option>
+        <option>Prof. Priyanka Roy</option>
+        <option>Prof. Sian Maria Dorothy D'silva </option>
+        <option>Prof. Sourav Chowdhury</option>
+        <option>Prof. Jayati Ray Dutta </option>
+        <option>Prof. Jamma Trinath</option>
+      </select>
+    </label>
+    <br><br>
+    <label>Course: 
+      <select id="course">
+        <option>AN F311</option>
+        <option>AN F313</option>
+        <option>BIO F101</option> 
+    
+      </select>
+    </label>
+    <br><br>
+   <label>Rating (1–10): 
+  <select id="rating">
+    <option value="">--Select--</option>
+    <option value="1">1 - Very Poor</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 - Average</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10 - Excellent</option>
+  </select>
+</label>
+
+    <br><br>
+    <textarea id="review" placeholder="Write your review..."></textarea>
+    <br><br>
+    <button onclick="submitRating()">Submit</button>
+  </div>
+
+  <h2>Ratings & Reviews</h2>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
